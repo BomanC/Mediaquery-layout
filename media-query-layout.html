@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS Media query</title>
+<link href="media-query-layout.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="container">
+	<header>
+		<h1>CSS Media Queryt</h1>
+	</header>
+	<nav>
+        <ul>
+            <li><a href="#">CSS</a></li>
+			<li><a href="#">eri</a></li>
+			<li><a href="#">kokoisille</a></li>
+			<li><a href="#">näytöille</a></li>
+		</ul>
+  </nav>
+  <article>
+<h2>Mitä media queryt ovat?</h2>
+      <p>Media queryt ovat sääntöjä, joiden mukaan selaimet toteuttavat eri CSS-sääntöjä eri kokoisilla näytöillä. Ne toimivat hieman samantapisesti kuin if..else-lauseet ohjelmoinnissa.</p>
+        <div class="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/170px-CSS3_logo_and_wordmark.svg.png"  alt=""/></div>
+    <h2>Breakpointit</h2>
+        <p>Jos selainikkuna on 600 kuvapistettä tai pienempi, taustaväri on vaaleanharmaa:</p>
+        <p>@media only screen and (max-width: 600px) {<br>
+            body {<br>
+     background-color: lightgrey;<br>
+  }<br>
+}</p>
+	
+	</article>
+	<footer>
+		Copyright © Koodipoliisit ry
+	</footer>
+</div>
+
+</body>
+</html>
