@@ -73,8 +73,8 @@ article {
 	font-size: 80%
 }
 
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
 	body {
-		background-color: lightgray;
+		background-color: pink;
 	}
 }
