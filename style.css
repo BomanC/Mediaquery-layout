@@ -86,7 +86,7 @@ article {
 	}
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 800px){
 	#container {
 		width: 100%;
 		border-left: 5px solid #2f3049;
