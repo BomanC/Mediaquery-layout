@@ -60,7 +60,6 @@ nav li a {
 	text-decoration: none;
     font-weight: bold;
 	border-right: 1px solid #fff;
-    /*border-bottom: 1px solid #fff;*/
     margin: 0;
 }
 
@@ -75,10 +74,10 @@ article {
 }
 
 @media screen and (max-width: 559px){
-	nav {
+	nav a{
 		display: block;
 	}
-	#container {
+	body {
 		width: 100%;
 	}
 }
@@ -91,8 +90,3 @@ article {
 		width: 80%;
 	}
 }
-
-@media screen and (min-width: 992px){
-	
-}
-
