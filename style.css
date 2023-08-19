@@ -72,7 +72,7 @@ article {
 }
 
 @media screen and (max-width: 300px){
-	#container {
+	body #container {
 		width: 100%;
 		height: 100%;
 	}
