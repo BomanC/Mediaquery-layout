@@ -93,7 +93,7 @@ article {
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 1200px){
+@media only screen and (min-width: 301px) and (max-width: 1200px){
 	#container {
 		width: 100%;
 		border-left: 5px solid #2f3049;
