@@ -72,10 +72,10 @@ article {
 	font-size: 80%
 }
 
-@media (max-width: 600px){
+@media only screen and(min-width:360px) and (max-width: 600px){
 	#container {
-		margin: 0;
-		width: 100%;
+		margin: auto;
+		width: auto;
 		max-width: 100%;
 	}	
 	nav {
