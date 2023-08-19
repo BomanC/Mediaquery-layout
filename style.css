@@ -75,6 +75,7 @@ article {
 	body {
 		padding: 100;
 		margin: 100;
+		background-color: aqua;
 	}
 	#container {
 		width: 100%;
