@@ -73,8 +73,19 @@ article {
 	font-size: 80%
 }
 
-@media only screen and (max-width: 600px){
+@media (max-width: 600px){
 	#container {
-		background-color: pink;
+		margin: 0;
+		width: 100%;
+		max-width: 100%;
+	}	
+	nav {
+		float: none;
+		display: block;
+		text-align: center;
 	}
+	article{
+		font-size: 75%;
+	}
+
 }
