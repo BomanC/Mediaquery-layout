@@ -89,3 +89,11 @@ article {
 	}
 
 }
+
+@media only screen and(max-width: 992px){
+	#container {
+		padding-left: 5px solid #2f3049;
+		background-color:aqua;
+	}
+	
+}
