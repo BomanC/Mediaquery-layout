@@ -74,11 +74,15 @@ article {
 }
 
 @media screen and (max-width: 320px){
-	body {
+	body #container {
 		width: 100%;
 	}
 	nav {
+		float: none;
 		display: block;
+	}
+	nav ul li{
+		display: flex;
 	}
 }
 
