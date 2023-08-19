@@ -73,13 +73,16 @@ article {
 	font-size: 80%
 }
 
-@media screen and (max-width: 559px){
+@media screen and (max-width: 600px){
 	body {
 		width: 100%;
 	}
+	nav {
+		display: block;
+	}
 }
 
-@media screen and (min-width: 600px){
+@media screen and (max-width: 992px){
 	#container {
 		width: 100%;
 		border-left: 5px solid #2f3049;
