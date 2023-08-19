@@ -73,7 +73,7 @@ article {
 	font-size: 80%
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 350px){
 	body{ 
 		background-color: #2f3049;
 	}
@@ -95,13 +95,13 @@ article {
 
 @media screen and(min-width: 600px){
 	#container {
-		padding-left: 5px solid #2f3049;
+		border-left: 5px solid #2f3049;
 		width: 100% auto;
 		max-width: 100%;
 		height: auto;
 	}
 
 	article {
-		font-size: 75%;
+		font-size: 73%;
 	}
 }
