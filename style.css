@@ -73,11 +73,15 @@ article {
 	font-size: 80%
 }
 
-@media only screen and(min-width:360px) and (max-width: 600px){
+@media screen and (max-width: 600px){
+	body{ 
+		background-color: #2f3049;
+	}
+
 	#container {
-		margin: auto;
-		width: auto;
+		width: 100% auto;
 		max-width: 100%;
+		height: auto;
 	}	
 	nav {
 		float: none;
@@ -87,13 +91,17 @@ article {
 	article{
 		font-size: 75%;
 	}
-
 }
 
-@media only screen and(max-width: 992px){
+@media screen and(min-width: 600px){
 	#container {
 		padding-left: 5px solid #2f3049;
-		background-color:aqua;
+		width: 100% auto;
+		max-width: 100%;
+		height: auto;
 	}
-	
+
+	article {
+		font-size: 75%;
+	}
 }
