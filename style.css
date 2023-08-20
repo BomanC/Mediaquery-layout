@@ -91,6 +91,9 @@ article {
 }
 
 @media screen and(min-width: 600px) {
+	body {
+		width: 100%;
+	}
 	#container {
 		width: auto;
 		border-left: 6px solid #2f3049;
