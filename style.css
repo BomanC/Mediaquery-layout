@@ -7,8 +7,9 @@ body {
 }
 
 #container {
+	margin: 0 auto;
 	width: 80%;
-	background: pink;
+	background: #ffffff;
 	font-family:Verdana, Geneva, sans-serif;
 }
 
@@ -73,7 +74,8 @@ article {
 
 @media screen and(max-width:600px) {
 	#container {
-		width: auto;
+		width: 100%;
+		max-width: 600px;
 	}
 	nav {
 		float: none;
@@ -82,5 +84,18 @@ article {
 		float: none;
 		display: none;
 		text-align: center;
+	}
+}
+
+@media screen and(min-width: 600px) {
+	#container {
+		width: auto;
+		border-left: 5px solid #2f3049;
+	}
+	nav {
+		float: auto;
+	}
+	article {
+		font-size: 80%;
 	}
 }
