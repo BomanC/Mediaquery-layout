@@ -73,6 +73,9 @@ article {
 }
 
 @media screen and(max-width:600px) {
+	body{
+		width: fit-content;
+	}
 	#container {
 		width: 100%;
 		max-width: 600px;
