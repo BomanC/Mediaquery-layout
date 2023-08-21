@@ -9,13 +9,14 @@ body {
 #container {
 	margin: 0 auto;
 	width: 80%;
+    max-width: 768px;
 	background: #ffffff;
 	font-family:Verdana, Geneva, sans-serif;
 }
 
 
 .center {
-    margin: auto;
+     margin: auto;
     text-align: center;
 }
 
@@ -59,6 +60,7 @@ nav li a {
 	text-decoration: none;
     font-weight: bold;
 	border-right: 1px solid #fff;
+    /*border-bottom: 1px solid #fff;*/
     margin: 0;
 }
 
@@ -70,38 +72,3 @@ article {
 	clear: left;
 	padding: 20px;
 	font-size: 80%
-}
-
-@media screen and(max-width:600px) {
-	body{
-		width: fit-content;
-	}
-	#container {
-		width: 100%;
-		max-width: 600px;
-	}
-	nav {
-		float: none;
-	}
-	nav a{
-		float: none;
-		display: none;
-		text-align: center;
-	}
-}
-
-@media screen and(min-width: 600px) {
-	body {
-		width: 100%;
-	}
-	#container {
-		width: auto;
-		border-left: 6px solid #2f3049;
-	}
-	nav {
-		float: auto;
-	}
-	article {
-		font-size: 80%;
-	}
-}
