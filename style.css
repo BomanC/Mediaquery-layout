@@ -9,6 +9,7 @@ body {
 .container {
 	margin: 0 auto;
 	width: 80%;
+	max-width: 768px;
 	background: #ffffff;
 	font-family:Verdana, Geneva, sans-serif;
 }
@@ -73,16 +74,10 @@ article {
 	font-size: 80%
 }
 
-@media screen and(max-width: 768px) {
-	.container {
-		margin: auto;
-		padding: 5px solid #2f3049;
-		width: 100%;	
-	}
-}
-	
-
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
+    body{
+        background-color: lightgreen;
+    }
 	.container {
 		margin: auto;
 		width: 100%;
@@ -93,5 +88,27 @@ article {
 		float: none;
 		padding: 0;
 		margin: 0;
+	}
+   
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background-color: lightblue;
+    }
+	.container {
+		margin: auto;
+		padding: 5px solid #2f3049;
+		width: 100%;	
+	}
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: lightgray;
+    }
+	.container{
+		width: 80%;
+	max-width: 768px;
 	}
 }
