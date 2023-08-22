@@ -98,7 +98,7 @@ article {
 	}
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
 	.container{
 		width: 80%;
 	max-width: 768px;
