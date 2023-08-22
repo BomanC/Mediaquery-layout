@@ -75,7 +75,7 @@ article {
 }
 
 @media screen and (max-width: 480px) {
-   .container {
+   body .container {
 		margin: auto;
 		width: 100%;
 		max-width: 480px;
@@ -101,6 +101,6 @@ article {
 @media screen and (min-width: 900px) {
 	.container{
 		width: 80%;
-	max-width: 768px;
+	    max-width: 900px;
 	}
 }
