@@ -92,7 +92,7 @@ article {
 @media screen and (min-width: 600px) {
 	.container {
 		margin: auto;
-		border-left: 10px solid #2f3049;
+		border-left: 7px solid #2f3049;
 		width: 100%;	
 	}
 }
