@@ -72,3 +72,34 @@ article {
 	clear: left;
 	padding: 20px;
 	font-size: 80%
+}
+
+@media screen and(max-width: 600px) {
+	body{
+		background-color: darkgrey;
+	}
+	#container {
+		margin: auto;
+		width: 100%;
+		max-width: max-content;
+	}
+}
+
+@media screen and(max-width: 900px) {
+	body {
+		background-color: grey;
+	}
+	#container {
+		margin: auto;
+		border-left: 5px solid #2f3049;
+		width: 100%;
+		max-width: max-content;
+	}
+
+	nav li a{
+		display: none;
+		float: none;
+		padding: 0;
+		margin: 0;
+	}
+}
