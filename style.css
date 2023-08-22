@@ -75,10 +75,7 @@ article {
 }
 
 @media screen and (max-width: 600px) {
-    body{
-        background-color: lightgreen;
-    }
-	.container {
+   .container {
 		margin: auto;
 		width: fit-content;
 		height: fit-content;
@@ -93,9 +90,6 @@ article {
 }
 
 @media screen and (min-width: 600px) {
-    body{
-        background-color: lightblue;
-    }
 	.container {
 		margin: auto;
 		border-left: 10px solid #2f3049;
@@ -104,9 +98,6 @@ article {
 }
 
 @media screen and (min-width: 992px) {
-    body{
-        background-color: lightgray;
-    }
 	.container{
 		width: 80%;
 	max-width: 768px;
